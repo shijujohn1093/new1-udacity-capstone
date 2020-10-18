@@ -15,7 +15,7 @@ pipeline {
                  '''
              }
          }
-        }
+        
         stage('Lint Dockerfile') {
             steps {
                 script {
